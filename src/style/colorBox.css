@@ -1,0 +1,11 @@
+.colors {
+  height: 100%;
+}
+.color_box {
+  width: 20%;
+  height: 25%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
