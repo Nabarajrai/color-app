@@ -10,7 +10,13 @@ const ColorBox = () => {
     <div className="colors">
       {colors.map((c, i) => (
         <div className="color_box" key={i} style={{ backgroundColor: c.color }}>
-          <div>{c.name}</div>
+          <div className="detail-copy">
+            <button>Copy</button>
+          </div>
+          <div className="detail-name">
+            <h6>{c.name}</h6>
+            <h5>More</h5>
+          </div>
         </div>
       ))}
     </div>
